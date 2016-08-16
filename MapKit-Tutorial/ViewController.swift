@@ -22,6 +22,8 @@ class ViewController: UIViewController {
     }
     
     let names = ["newyork":(40.7128,-74.0059),"purdue":(40.4237,-86.9212),"seattle":(47.6062,-122.3321),"sf":(37.7786,-122.3893),"stanford":(37.4241,-122.1661),"texas":(31.9686,-99.9018)]
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
