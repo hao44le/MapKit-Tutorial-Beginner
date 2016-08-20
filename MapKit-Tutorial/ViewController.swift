@@ -14,7 +14,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var mapView: MKMapView!
     
-    let names = ["newyork":(40.7128,-74.0059),"seattle":(47.6062,-122.3321),"sf":(37.7786,-122.3893),
+    typealias coordinate = (latitude:Double, longitude: Double)
+    
+    let names: [String:coordinate] = ["newyork":(40.7128,-74.0059),"seattle":(47.6062,-122.3321),"sf":(37.7786,-122.3893),
                  "texas":(31.9686,-99.9018)]
     
     @IBAction func findMyLocation(_ sender: UIButton) {
